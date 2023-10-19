@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: aqua;
+}
+label,input,a{
+    display: block;
+    margin-bottom: 10px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color:blueviolet;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: palegreen;
+}
+#new{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.889);
+    color: wheat;
+    font-size: 15px;
+}
+#Cancel{
+    background-color: red;
+}
+#icon{
+    position: relative;
+}
+#icon1{
+    position: relative;
+}
+.fa-solid{
+    color: yellow;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
